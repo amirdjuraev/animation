@@ -1,0 +1,215 @@
+.div1 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.div1:hover {
+    background-color: red;
+}
+
+.div2 {
+    width: 400px;
+    height: 200px;
+    color: red;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.div2:hover {
+    color: white;
+    background-color: red;
+}
+
+.div3 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.div3:hover {
+    width: 1000px;
+}
+
+.div4 {
+    width: 400px;
+    height: 200px;
+    color: red;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.div4:hover {
+    width: 1000px;
+    font-size: 100px;
+}
+
+.div5 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.div5:hover {
+    width: 1000px;
+    margin-left: 200px;
+}
+
+.div6 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 3s;
+}
+
+.div6:hover {
+    width: 1000px;
+}
+
+input {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+input:active {
+    width: 1000px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+}
+
+
+/* .div8 {
+    width: 900px;
+    height: 900px;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.d8:hover .div8 {
+    width: 700px;
+}
+
+.d8 {
+    border: 2px solid red;
+    height: 50px;
+    width: 100px;
+} */
+
+.d8 {
+    background: white;
+    border: 1px solid red;
+    width: 30%;
+    height: 30px;
+    margin: 0px 0px 20px 20px;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.d8:hover {
+    width: 700px;
+}
+
+.d9 {
+    width: 400px;
+    height: 200px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0);
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+}
+
+.show {
+    background: white;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.hint {
+    background: #FF5B5B;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 0px 0px -400px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    transition: all 1s ease-out;
+}
+
+.show:hover+.hint {
+    margin-left: 30%;
+}
+
+#div1 {
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    color: #000;
+    transition: width 3s steps(5, start);
+}
+
+#div2 {
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    color: #000;
+    margin-top: 20px;
+    transition: width 3s steps(5, end);
+}
+
+#go:hover div {
+    width: 100%;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 50%;
+    height: 30px;
+    border: 1px solid red;
+}
+
+#test {
+    background: red;
+    width: 0%;
+    height: 30px;
+    transition: all 2s linear;
+}
+
+#wrapper:hover div {
+    width: 100%;
+}
